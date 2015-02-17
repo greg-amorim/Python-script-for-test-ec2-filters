@@ -67,7 +67,7 @@ def instance_filter(path):
                      dict_filter[key].append(val)
     return dict_filter
 
-def max_val(dict):
+def max_val(dict_max):
     """
         it is a function to return the maximum value of the values.
 
@@ -78,7 +78,7 @@ def max_val(dict):
               max_val.append(len(val))
     return max(max_val)
 
-def max_key(dict):
+def max_key(dict_max):
     """
         it is a function to return the maximum value of the keys.
 
